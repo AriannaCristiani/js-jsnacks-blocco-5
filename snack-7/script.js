@@ -23,7 +23,6 @@ const students = [
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
 
-let secondStudent = students[1]
-console.log(secondStudent)
+const secondStudent = students.find(({name}) => name === "Mario Banfi");
 
-
+console.log(secondStudent); 
