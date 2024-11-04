@@ -8,6 +8,7 @@ const posts = [
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
-const newArray = posts.filter((obj) => console.log(obj.author))
+const newArray = posts.map((obj) => obj.author)
 
 
+console.log(newArray)
